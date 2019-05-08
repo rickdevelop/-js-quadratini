@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.blocco-square {
+  width: 640px;
+  height: 640px;
+  margin: 20px auto;
+}
+.square {
+  background-color: white;
+  border: 1px solid black;
+  margin: 0;
+  width: 80px;
+  height: 80px;
+  float: left;
+}
+
+.green{
+  background-color: green;
+}
+.contatoreGreen, .contatoreRed{
+
+  width: 200px;
+  height: 50px;
+  line-height: 50px;
+  border: 1px gray;
+  background: #aee2ef;
+  margin: 20px;
+}
